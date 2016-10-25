@@ -1,0 +1,19 @@
+nav {
+  background-color: #000;
+}
+
+nav ul a {
+  color: #FFF;
+}
+
+a:hover {
+  color: red;
+}
+
+.GA-color{
+  color: #f6201d;
+}
+
+#brand {
+  color: #f6201d;
+}
