@@ -4,16 +4,26 @@ nav {
 
 nav ul a {
   color: #FFF;
+  font-family: 'Abhaya Libre', serif;
 }
 
 a:hover {
-  color: red;
+  color: #f6201d;
 }
 
 .GA-color{
   color: #f6201d;
 }
 
-#brand {
-  color: #f6201d;
+.nav-links {
+  padding-right: 1em;
+}
+
+.session-status{
+  font-family: 'Abhaya Libre', serif;
+}
+
+#galaxy {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 1em;
 }

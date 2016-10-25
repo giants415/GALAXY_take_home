@@ -11,19 +11,26 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href='assets/styles.css'>
+    <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href='assets/style.css'>
 
   </head>
   <body>
     <div class = "col l12 m12 s12">
       <nav>
         <div class="nav-wrapper">
-          <span class="brand-logo"><span class="GA-color">GA</span><span>LAXY</span></span>
-          <ul class="right">
-            <li class = "hover-link"><a href="sass.html">For Students</a></li>
-            <li class = "hover-link"><a href="badges.html">For Teachers</a></li>
-            <li class = "hover-link"><a href="collapsible.html">For Parents</a></li>
-            <li class = "hover-link" id="session-status"></li>
+          <span class="brand-logo" id="galaxy"><span class="GA-color">GA</span><span>LAXY</span></span>
+          <ul class="right hide-on-med-and-down nav-links">
+            <li><a href="sass.html">For Students</a></li>
+            <li><a href="badges.html">For Teachers</a></li>
+            <li><a href="collapsible.html">For Parents</a></li>
+            <li class = "hover-link session-status"></li>
+          </ul>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="sass.html">For Students</a></li>
+            <li><a href="badges.html">For Teachers</a></li>
+            <li><a href="collapsible.html">For Parents</a></li>
           </ul>
         </div>
       </nav>
